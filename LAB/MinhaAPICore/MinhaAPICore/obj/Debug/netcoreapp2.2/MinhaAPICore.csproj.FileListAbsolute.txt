@@ -1,0 +1,15 @@
+C:\Users\CAIO\Desktop\Caio\Developer\Cursos\REST com ASP.NET Core WebAPI\LAB\MinhaAPICore\MinhaAPICore\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\CAIO\Desktop\Caio\Developer\Cursos\REST com ASP.NET Core WebAPI\LAB\MinhaAPICore\MinhaAPICore\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\CAIO\Desktop\Caio\Developer\Cursos\REST com ASP.NET Core WebAPI\LAB\MinhaAPICore\MinhaAPICore\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\CAIO\Desktop\Caio\Developer\Cursos\REST com ASP.NET Core WebAPI\LAB\MinhaAPICore\MinhaAPICore\bin\Debug\netcoreapp2.2\MinhaAPICore.deps.json
+C:\Users\CAIO\Desktop\Caio\Developer\Cursos\REST com ASP.NET Core WebAPI\LAB\MinhaAPICore\MinhaAPICore\bin\Debug\netcoreapp2.2\MinhaAPICore.runtimeconfig.json
+C:\Users\CAIO\Desktop\Caio\Developer\Cursos\REST com ASP.NET Core WebAPI\LAB\MinhaAPICore\MinhaAPICore\bin\Debug\netcoreapp2.2\MinhaAPICore.runtimeconfig.dev.json
+C:\Users\CAIO\Desktop\Caio\Developer\Cursos\REST com ASP.NET Core WebAPI\LAB\MinhaAPICore\MinhaAPICore\bin\Debug\netcoreapp2.2\MinhaAPICore.dll
+C:\Users\CAIO\Desktop\Caio\Developer\Cursos\REST com ASP.NET Core WebAPI\LAB\MinhaAPICore\MinhaAPICore\bin\Debug\netcoreapp2.2\MinhaAPICore.pdb
+C:\Users\CAIO\Desktop\Caio\Developer\Cursos\REST com ASP.NET Core WebAPI\LAB\MinhaAPICore\MinhaAPICore\obj\Debug\netcoreapp2.2\MinhaAPICore.RazorAssemblyInfo.cache
+C:\Users\CAIO\Desktop\Caio\Developer\Cursos\REST com ASP.NET Core WebAPI\LAB\MinhaAPICore\MinhaAPICore\obj\Debug\netcoreapp2.2\MinhaAPICore.RazorAssemblyInfo.cs
+C:\Users\CAIO\Desktop\Caio\Developer\Cursos\REST com ASP.NET Core WebAPI\LAB\MinhaAPICore\MinhaAPICore\obj\Debug\netcoreapp2.2\MinhaAPICore.AssemblyInfoInputs.cache
+C:\Users\CAIO\Desktop\Caio\Developer\Cursos\REST com ASP.NET Core WebAPI\LAB\MinhaAPICore\MinhaAPICore\obj\Debug\netcoreapp2.2\MinhaAPICore.AssemblyInfo.cs
+C:\Users\CAIO\Desktop\Caio\Developer\Cursos\REST com ASP.NET Core WebAPI\LAB\MinhaAPICore\MinhaAPICore\obj\Debug\netcoreapp2.2\MinhaAPICore.RazorTargetAssemblyInfo.cache
+C:\Users\CAIO\Desktop\Caio\Developer\Cursos\REST com ASP.NET Core WebAPI\LAB\MinhaAPICore\MinhaAPICore\obj\Debug\netcoreapp2.2\MinhaAPICore.dll
+C:\Users\CAIO\Desktop\Caio\Developer\Cursos\REST com ASP.NET Core WebAPI\LAB\MinhaAPICore\MinhaAPICore\obj\Debug\netcoreapp2.2\MinhaAPICore.pdb

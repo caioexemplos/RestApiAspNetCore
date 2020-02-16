@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 
+
 namespace MinhaAPICore.Controllers
 {
     [Route("api/[controller]")]
@@ -17,21 +18,14 @@ namespace MinhaAPICore.Controllers
         {
             var valores = new string[] { "value1", "value2" };
 
-            if (valores.Length < 5000)
-                return BadRequest();
+            //if (valores.Length < 5000)
+            //    return BadRequest();
 
-            return Ok(valores);
+            var ok= Ok(valores);
+
+            return ok;
         }
-        [HttpGet]
-        public ActionResult GetValores()
-        {
-            var valores = new string[] { "value1", "value2" };
-
-            if (valores.Length < 5000)
-                return BadRequest();
-
-            return Ok(valores);
-        }
+       
 
 
         // GET api/values/5
@@ -56,7 +50,8 @@ namespace MinhaAPICore.Controllers
                 return BadRequest();
             //add no banco
 
-            return CreatedAtAction(actionName: nameof(Post), product);
+            //return CreatedAtAction(actionName: nameof(Post), product);
+            return Ok(product);
         }
 
         // PUT api/values/5
@@ -70,6 +65,17 @@ namespace MinhaAPICore.Controllers
         public void Delete([FromHeader]int id)
         {
         }
+
+        //[HttpGet]
+        //public ActionResult ObterResultados()
+        //{
+        //    var valores = new string[] { "value1", "value2" };
+
+        //    if (valores.Length < 5000)
+        //        return CustomResponse();
+
+        //    return CustomResponse(valores);
+        //}
     }
 
     public abstract class MainController : ControllerBase
@@ -77,14 +83,27 @@ namespace MinhaAPICore.Controllers
         protected ActionResult CustomResponse(object result=null)
         {
             if(OperacaoValida())
-            return Ok();
+            return Ok(new { 
+                sucess=true,
+                data=result
+            });;
 
-            return BadRequest();
+            return BadRequest(new
+            {
+                sucess = false,
+                errors = ObterErros()
+            });
         }
 
         public bool OperacaoValida()
         {
+            //minhas validações
             return true;
+        }
+
+        protected string ObterErros()
+        {
+            return "";
         }
     }
 

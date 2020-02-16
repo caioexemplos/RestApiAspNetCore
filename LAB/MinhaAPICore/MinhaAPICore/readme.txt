@@ -150,3 +150,19 @@ Caso você não quiser tipar seu ActionResult,porém,você precisa Passar atrav�
             return CreatedAtAction(actionName: nameof(Post), product);
         }
       
+
+      Analyzers 
+      PM>Install-Package Microsoft.AspNetCore.Mvc.Api.Analyzers
+
+      ao usar essa annotation acima do namespace na classe startup você irá forçar o compilador a alertar
+      sobre possíveis desvios da convenção de WebApi Build:
+      [assembly:ApiConventionType(typeof(DefaultApiConventions))]
+
+      Analyzers e convenções são um caminho para você seguir as melhores praticas para montar sua api.
+
+      Em resumo:
+      Analyzers:Geram warnings de compilação e marcam o código para reforçar a necessidade de implementar
+                 um [ProducesResponseType] adequado para cada código de retorno utilizado no método.
+       
+      Conventions:Implementam automaticamente o recurso [ProducesResponseType] para cada 
+                    código de retorno utilizado no método, assim facilitando a documentação da API.
